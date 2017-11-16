@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60CC452D1FBE36EE00A02B48 /* MyFirstTileMapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 60CC452C1FBE36EE00A02B48 /* MyFirstTileMapScene.sks */; };
+		60CC452F1FBE380100A02B48 /* MyFirstTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 60CC452E1FBE380100A02B48 /* MyFirstTileSet.sks */; };
 		60FABAF61FBD601F00E54333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FABAF51FBD601F00E54333 /* AppDelegate.swift */; };
 		60FABAFC1FBD601F00E54333 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FABAFB1FBD601F00E54333 /* GameScene.swift */; };
 		60FABAFE1FBD601F00E54333 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FABAFD1FBD601F00E54333 /* GameViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60CC452C1FBE36EE00A02B48 /* MyFirstTileMapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyFirstTileMapScene.sks; sourceTree = "<group>"; };
+		60CC452E1FBE380100A02B48 /* MyFirstTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyFirstTileSet.sks; sourceTree = "<group>"; };
 		60FABAF21FBD601F00E54333 /* SpriteKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FABAF51FBD601F00E54333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60FABAFB1FBD601F00E54333 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				60FABB021FBD601F00E54333 /* Assets.xcassets */,
 				60FABB041FBD601F00E54333 /* LaunchScreen.storyboard */,
 				60FABB071FBD601F00E54333 /* Info.plist */,
+				60CC452C1FBE36EE00A02B48 /* MyFirstTileMapScene.sks */,
+				60CC452E1FBE380100A02B48 /* MyFirstTileSet.sks */,
 			);
 			path = "SpriteKit Demo";
 			sourceTree = "<group>";
@@ -235,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CC452D1FBE36EE00A02B48 /* MyFirstTileMapScene.sks in Resources */,
 				60FABB011FBD601F00E54333 /* Main.storyboard in Resources */,
 				60FABB031FBD601F00E54333 /* Assets.xcassets in Resources */,
 				60FABB061FBD601F00E54333 /* LaunchScreen.storyboard in Resources */,
+				60CC452F1FBE380100A02B48 /* MyFirstTileSet.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
